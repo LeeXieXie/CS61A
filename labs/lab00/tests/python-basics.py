@@ -15,12 +15,13 @@ test = {
           >>> 7 // 2
           be9b9b860e53fef39d5863d61f03d3c4
           # locked
-          >>> 7 % 2			# 7 modulo 2, the remainder when dividing 7 by 2.
+          >>> 7 % 2  # 7 modulo 2, the remainder when dividing 7 by 2.
           6f717e91fe5a90641e44dc5a5368b663
           # locked
           """,
           'hidden': False,
-          'locked': True
+          'locked': True,
+          'multiline': False
         }
       ],
       'scored': False,
@@ -43,12 +44,13 @@ test = {
           309984ef0dc06025a91b127042939a0e
           # locked
           >>> y = y // 4
-          >>> y + x
+          >>> y + x # think carefully about what x is equal to!
           3d3ab69a0677d75a0ef4a99e0d2d1451
           # locked
           """,
           'hidden': False,
-          'locked': True
+          'locked': True,
+          'multiline': False
         }
       ],
       'scored': False,
