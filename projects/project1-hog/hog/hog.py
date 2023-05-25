@@ -27,7 +27,6 @@ def roll_dice(num_rolls, dice=six_sided):
     score = 0
     hog_flag = False
     for i in range(0, num_rolls):
-
         side = dice()
         if side == 1:
             hog_flag = True
@@ -110,7 +109,6 @@ def swine_align(player_score, opponent_score):
             return False
         else:
             return True
-
     # END PROBLEM 4a
 
 
